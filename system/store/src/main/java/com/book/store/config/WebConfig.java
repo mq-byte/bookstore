@@ -10,7 +10,7 @@ import org.springframework.web.filter.CorsFilter;
 public class WebConfig {
     private CorsConfiguration buildConfig() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.addAllowedOrigin("http://localhost:8081"); // 1允许任何域名使用
+        corsConfiguration.addAllowedOrigin("http://www.pangpangjun.com:8081"); // 1允许任何域名使用
         corsConfiguration.addAllowedHeader("*"); // 2允许任何头
         corsConfiguration.addAllowedMethod("*"); // 3允许任何方法（post、get等）
         corsConfiguration.setAllowCredentials(true);
